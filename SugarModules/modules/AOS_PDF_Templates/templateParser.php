@@ -111,8 +111,7 @@ class templateParser{
 			foreach($bean_arr as $bean_name => $bean_id) {
 				require_once($beanFiles[$beanList[$bean_name]]);
 	
-				$focus = new $beanList[$bean_name];
-				$focus->retrieve($bean_id);
+				$focus = BeanFactory::getBean($beanList[$bean_name], $bean_id);
 				
 				$string = templateParser::parse_template_bean($string, $bean_name, $focus);
 			}

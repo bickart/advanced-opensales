@@ -1,3 +1,9 @@
-Advanced OpenSales for SugarCRM features an advanced, robust set of business extensions
-for sales and support management and inventory control including Quotes, Invoices
-Products and Contracts modules.
+Advanced OpenSales for SugarCRM features an advanced, robust set of business 
+extensions for sales and support management and inventory control including 
+Quotes, Invoices, Products and Contracts modules.
+
+The advanced-opensales package will not install on SugarCRM correctly if downloaded 
+from GitHub. Please download the package from the SalesAgility website at 
+http://www.salesagility.com/index.php/advanced-opensales
+
+
